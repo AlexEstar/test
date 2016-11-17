@@ -1,0 +1,158 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+.container {
+	width: 1200px;
+}
+header {
+	background-image: url(../img/NYbg.jpg);
+	width: 1200px;
+	height: 800px;
+	position: relative;
+}
+h2 {
+	text-align: center;
+	margin: 0;
+	font-family: 'Regular 400', cursive ;
+}
+.sider_container img{
+	max-width:100% ;
+	    position: relative;
+    left: 647px;
+}
+.sider_container{
+	position: relative;
+	top: 471px;
+}
+.next_button ,
+.prev_button {
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10em;
+	color: #fff;
+	cursor: pointer;
+	font-size: 46px;
+	padding: 0 25px;
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+}
+.next_button	{
+	right: 20px;
+}
+.prev_button{
+	left: 20px;
+}
+.s_item img {
+	width: 200px;
+
+}
+.s_item {
+	margin-bottom: 50px;
+}
+.rewiews span {
+	margin-left: -48px;
+	display: table;
+}
+.table1 span{
+	background-image: url(../img/table45-5.png);
+	height: 363px;
+	width: 254px;
+	position: fixed;
+	left: 385px;
+	top: -201px;
+	z-index: 10;
+}
+.table1 p {
+	position: fixed;
+	top: 44px;
+	left: 401px;
+	font-size: 22px;
+	z-index: 10;
+}
+
+.table2 span {
+	background-image: url(../img/table2.png);
+	height: 363px;
+	width: 252px;
+	position: fixed;
+	top: -200px;
+	right: 337px;
+	z-index: 10;
+}
+
+.table2 .enter {
+	position: fixed;
+	right: 436px;
+	top: 28px;
+	font-size: 26px;
+	z-index: 10;
+}
+.table2 .registration {
+	position: fixed;
+	right: 394px;
+	top: 85px;
+	font-size: 23px;
+	z-index: 10;
+}
+.marketing span {
+	background-image: url(../img/ramka.png);
+	width: 700px;
+	height: 503px;
+	position: relative;
+}
+
+.about span {
+	background-image: url(../img/Money.jpg);
+	width: 1200px;
+	height: 721px;
+	display: block;
+}
+.about h2 {
+	margin-bottom: -16px;
+	position: relative;
+	top: 47px;
+}
+.ice span {
+	background-image: url(../img/ice.png);
+	width: 965px;
+	height: 71px;
+	display: block;
+	position: fixed;
+	z-index: 10;
+}
+
+.tree span{
+	    background-image: url(../img/headerleft.png);
+    width: 272px;
+    height: 283px;
+    position: fixed;
+    display: block;
+    right: 337px;
+    z-index: 8;
+}
